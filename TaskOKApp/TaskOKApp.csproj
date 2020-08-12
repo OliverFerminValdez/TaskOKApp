@@ -11,11 +11,10 @@
 
   <ItemGroup>
     <Folder Include="BLL\" />
-    <Folder Include="Models\" />
     <Folder Include="DAL\" />
     <Folder Include="Pages\Consultas\" />
-    <Folder Include="Pages\Reportes\" />
     <Folder Include="Pages\Registros\" />
+    <Folder Include="Pages\Reportes\" />
   </ItemGroup>
 
 </Project>
