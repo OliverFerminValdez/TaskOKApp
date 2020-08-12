@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <StartWorkingDirectory>$(MSBuildProjectDirectory)</StartWorkingDirectory>
@@ -7,6 +7,15 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SQLite" Version="3.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BLL\" />
+    <Folder Include="Models\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Pages\Consultas\" />
+    <Folder Include="Pages\Reportes\" />
+    <Folder Include="Pages\Registros\" />
   </ItemGroup>
 
 </Project>
